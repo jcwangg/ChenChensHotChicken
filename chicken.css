@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+}
+#top {
+  background-color: #231F20;
+  opacity: 1;
+}
+
+#bottom {
+  padding: 20px;
+  background-color:#231F20;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 100px;
+  border-bottom-color: white;
+  border-bottom-style: double;
+  border-bottom-width: medium;
+}
+#mainButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+#main2 {
+  display: flex;
+  padding: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: White;
+}
+.box {
+  padding: 30px;
+  width: 30%;
+}
+
+#menuRight {
+  display: flex;
+  flex-direction: column;
+}
+
+#menuRight > h2 {
+  padding:20px;
+  font-size: 40px;
+}
+
+h2,h3,h4{
+  color: White;
+  font-family:  "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
+}
+ h4{
+   color: black;
+   font-size: 25px;
+   border-bottom-color: Black;
+   border-bottom-style: dotted;
+ }
+
+p {
+  font-family:  "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 20px;
+}
+#logo {
+  width: 500px;
+  height: 300px;
+}
+
+#main {
+  height: 600px;
+  background-image: url("pic1.jpg");
+}
+
+.normal{
+  color: White;
+  font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 45pt;
+}
+
+.cursive{
+  color: White;
+  font-family: 'Brush Script MT', sans-serif;
+  font-size: 30pt;
+}
+
+#links{
+  float: right;
+}
+
+.link {
+  height: 50px;
+  width: 50px;
+}
+
+.white {
+  color: White;
+}
+
+.red {
+  font-size: 30px;
+  color: Red;
+}
+
+.black {
+  color: Black;
+}
