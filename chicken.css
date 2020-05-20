@@ -89,10 +89,15 @@ p {
   color: White;
   font-family: 'Brush Script MT', sans-serif;
   font-size: 30pt;
+  text-align: center;
 }
 
 #links{
   float: right;
+}
+
+#menuPage{
+  margin: 30px;
 }
 
 .link {
@@ -109,6 +114,42 @@ p {
   color: Red;
 }
 
+p > .red {
+  font-weight: bold;
+  font-size: 32px;
+  text-decoration: none;
+}
+
 .black {
   color: Black;
+}
+
+.item {
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.desc {
+  text-align: center;
+  font-size: 20px;
+}
+.yellow {
+  text-align: center;
+  color: GoldenRod;
+}
+
+#heat {
+  border-color: red;
+  border-style: solid;
+  border-width: 3px;
+}
+
+#levels {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
