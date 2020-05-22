@@ -26,7 +26,37 @@
   		</div>
 		</div>
       <div id = "main">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="home1.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="home2.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="home3.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
+			<br>
+
+<!-- The dots/circles -->
+<div id = "dots" style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
 			<div id = "main2">
 				<div class = "box" id = "news">
 					<h4>NEWS</h4>
@@ -43,6 +73,9 @@
 				</div>
 			</div>
 			<div id = "menuPage">
+				<img src="chickenquarter.png" id = "quarter">
+				<p class = "item">WEEKEND SPECIAL! LARGE BONE-IN WHOLE CHICKEN QUARTER <span class = "yellow">12</span></p>
+				<p class = "desc">Buttermilk fried spicy chicken quarter served on white bread w extra pickles</p>
 				<p class = "item">OG HOT CHICKEN <span class = "yellow">11</span></p>
 				<p class = "desc">Buttermilk fried chicken thigh traditionally served on white bread w pickles</p>
 				<p class = "item">HOT CHICKEN SANDWICH <span class = "yellow">12</span></p>

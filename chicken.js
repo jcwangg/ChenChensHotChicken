@@ -7,6 +7,20 @@
   function on click of the "home" button.
   */
   function pageLoad(){
+    var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
     document.getElementById("menuPage").style.display = "none";
     document.getElementById("storyPage").style.display = "none";
     document.getElementById("menuButton1").onclick = displayMenu;
@@ -34,6 +48,8 @@
   }
 
 function displayStory(){
+  document.getElementById("dots").style.display = "none";
+
   document.getElementById("menuPage").style.display = "none";
   document.getElementById("main").style.display = "none";
   document.getElementById("main2").style.display = "none";
@@ -41,6 +57,8 @@ function displayStory(){
 }
 
 function displayHome(){
+  document.getElementById("dots").style.display = "block";
+
   document.getElementById("menuPage").style.display = "none";
   document.getElementById("main").style.display = "block";
   document.getElementById("main2").style.display = "flex";
@@ -49,6 +67,8 @@ function displayHome(){
 }
 
 function displayMenu(){
+  document.getElementById("dots").style.display = "none";
+
   document.getElementById("menuPage").style.display = "block";
   document.getElementById("main").style.display = "none";
   document.getElementById("main2").style.display = "none";
