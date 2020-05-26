@@ -48,7 +48,7 @@ function showSlides() {
   }
 
 function displayStory(){
-  document.getElementById("dots").style.display = "none";
+//  document.getElementById("dots").style.display = "none";
 
   document.getElementById("menuPage").style.display = "none";
   document.getElementById("main").style.display = "none";
@@ -57,7 +57,7 @@ function displayStory(){
 }
 
 function displayHome(){
-  document.getElementById("dots").style.display = "block";
+  //document.getElementById("dots").style.display = "block";
 
   document.getElementById("menuPage").style.display = "none";
   document.getElementById("main").style.display = "block";
@@ -67,7 +67,7 @@ function displayHome(){
 }
 
 function displayMenu(){
-  document.getElementById("dots").style.display = "none";
+//  document.getElementById("dots").style.display = "none";
 
   document.getElementById("menuPage").style.display = "block";
   document.getElementById("main").style.display = "none";
