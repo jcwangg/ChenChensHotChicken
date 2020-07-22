@@ -124,7 +124,7 @@ p {
 }
 
 .red {
-  font-size: 30px;
+  font-size: 25px;
   color: Red;
 }
 
@@ -173,5 +173,17 @@ p > .red {
 }
 
 #quarter {
+  margin-left: 30%;
+}
+
+.orderButton {
+  color: White;
+  font-family:  "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  text-align: center;
+  font-size: 30pt;
+  border-color: darkred;
+  border-style: solid;
+  text-decoration: none;
+  background: red;
   margin-left: 30%;
 }
